@@ -5,11 +5,11 @@ def hotel_cost(days):
 def plane_ride_cost(city):
     if city == "Charlotte":
         return 183
-    if city == "Tampa":
+    elif city == "Tampa":
         return 220
-    if city == "Pittsburgh":
+    elif city == "Pittsburgh":
         return 222
-    if city == "Los Angeles":
+    elif city == "Los Angeles":
         return 475
 
 
